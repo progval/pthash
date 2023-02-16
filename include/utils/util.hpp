@@ -19,8 +19,14 @@ static const uint64_t invalid_num_buckets = uint64_t(-1);
 static const std::string default_tmp_dirname(".");
 
 /* p1=n*a keys are placed in p2=m*b buckets */
+
 constexpr float a = 0.6;
 constexpr float b = 0.3;
+
+constexpr float a1 = 0.6;
+constexpr float a2 = 0.2;
+constexpr float b1 = 0.3;
+constexpr float b2 = 0.2;
 /****************************************/
 
 }  // namespace constants
